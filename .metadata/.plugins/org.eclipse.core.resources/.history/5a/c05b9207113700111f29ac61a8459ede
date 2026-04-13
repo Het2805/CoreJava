@@ -1,0 +1,21 @@
+package com.CollectionsFramework;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+	public static void main(String[] args) {
+		HashMap<Integer,String> m=new HashMap<Integer, String>();
+		m.put(1,"Jenil");
+		m.put(2,"Tirth");
+		m.put(3,"Yash");
+		System.out.println("HashMap."+m);
+		System.out.println("Value for key 2."+m.get(2));
+		if(m.containsKey(4)) {
+			System.out.println("Key Exists.");
+		}else {
+			System.out.println("Key Not Exists.");
+		}
+		
+	}
+
+}
